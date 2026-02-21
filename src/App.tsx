@@ -1,17 +1,24 @@
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Skills from './components/Skills';
 
 function App() {
   return (
     <main className="bg-primary min-h-screen">
+      {/* NAVEGADOR /> */}
       <Navbar />
-      {/* Todo el contenido de la página irá aquí adentro, debajo del Navbar */}
-      <div className="pt-20"> {/* Este padding-top evita que el Navbar tape el inicio del Hero */}
+      <div className="pt-20">
+
+        {/* HOME /> */}
         <div id="home">
           <Hero />
         </div>
-        {/* <About id="about" /> */}
-        {/* <Skills id="skills" /> */}
+        
+        {/* SKILLS /> */}
+        <div id="skills">
+          <Skills />
+        </div>
+
         {/* <Projects id="projects" /> */}
       </div>
     </main>
