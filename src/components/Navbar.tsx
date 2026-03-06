@@ -77,7 +77,7 @@ const Navbar = () => {
                         </div>
                     </button>
 
-                    {/* 3. BOTÓN HAMBURGUESA (SOLO MÓVIL) */}
+                    {/* 3. BOTÓN (SOLO MÓVIL) */}
                     <button 
                         type="button" 
                         aria-label="Abrir menú" 
@@ -119,6 +119,5 @@ const Navbar = () => {
         </nav>
     );
 };
-
 
 export default Navbar;

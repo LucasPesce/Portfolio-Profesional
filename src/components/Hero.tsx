@@ -1,6 +1,7 @@
 import { resumeData } from '../data/resume.ts';
 import { FaLinkedin, FaFileDownload, FaGithub, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import miCV from '../../public/CV.pdf';
 
 const Hero = () => {
     const { header, summary } = resumeData;
@@ -119,7 +120,7 @@ const Hero = () => {
                     </a>
 
                     <a
-                        href="/CV-Simple.pdf"
+                        href={miCV}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-12 h-12 md:w-auto md:h-auto md:px-8 md:py-3 border-2 border-accent text-accent font-semibold rounded hover:bg-accent hover:text-white transition-all duration-300 flex items-center justify-center gap-2"
